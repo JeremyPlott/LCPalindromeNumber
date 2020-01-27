@@ -1,4 +1,21 @@
-﻿public class Solution
+﻿//The problem actually asked for no strings at the end.
+//in that case, something like this should work:
+
+    //if num < 0 return false
+
+    //int reversedNum = 0;
+
+    //while (num < 0) 
+    //{
+        //num % 10 = digit
+        //reversedNum = (reversedNum * 10) + digit;
+        //num = num / 10
+    //}
+    //return (reversedNum == originalNum);
+
+
+
+public class Solution
 {
     public bool IsPalindrome(int x)
     {
